@@ -8,6 +8,17 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
+.descriptionProfile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 90px;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
 .descriptionProfile h3{
     color: rgb(140, 104, 173);
     font-size:  30px;
@@ -32,7 +43,7 @@ a{
     text-decoration: none;
 }
 
-section {
+section{
     padding: 90px 0;
     background: white;
 }
@@ -53,8 +64,7 @@ section {
     height: 40px;
     width: 100%;
     background: transparent;
-    backdrop-filter: blur(5px);
-    
+    backdrop-filter: blur(25px);
 }
 
 .iconoNav{
@@ -143,14 +153,14 @@ section {
 
 .setcontact{
     display: flex;
-    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
-
-
 
 .setProjects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
     gap: 20px;
 }
 
@@ -163,6 +173,26 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.fa-user{
+    color: rgb(140, 104, 173);;
+}
+
+.fa-envelope{
+    color: red
+}
+
+.fa-linkedin{
+    color:  #0e76a8
+}
+
+.fa-twitter{
+    color:  #00acee;
+}
+
+.fa-solid{
+    font-weight: 0;
 }
 
 footer{
